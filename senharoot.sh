@@ -37,8 +37,8 @@ iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 iptables -A INPUT -p tcp --dport 1194 -j ACCEPT
 clear && echo -ne "\033[1;32mDigite sua nova senha root bem difícil\033[1;37m: "; read senha
 [[ -z "$senha" ]] && {
-echo -e "\n\033[1;31mJá ta fazendo merda né burro, nem assim tu faz direito? tenta novamente..\033[0m"
+echo -e "\n\033[1;31mJá ta fazendo merda né burro, Tenta novamente..\033[0m"
 exit 0
 }
 echo "root:$senha" | chpasswd
-echo -e "\n\033[1;31m[ \033[1;33mVai brasiliam \033[1;31m]\033[1;37m - \033[1;32magora o bicho vai pegar \033[0m"
+echo -e "\n\033[1;31m[ \033[1;33m@FelpRJ21 O FAVORITO DELAS!\033[1;31m]\033[1;37m - \033[1;32mParabéns já joga o script ssh \033[0m"
