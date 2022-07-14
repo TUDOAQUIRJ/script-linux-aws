@@ -1,6 +1,7 @@
 #!/bin/bash
-# Noob sofre
-# nego não sabe entrar como Usuário root
+# Meu Primeiro shell script
+# Oi seus lindos ta olhando oque aqui em?
+# Fica avontade não tem segredo aqui não! beijos 😘 
 clear
 [[ "$(whoami)" != "root" ]] && {
 	clear
