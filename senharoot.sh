@@ -1,7 +1,8 @@
 #!/bin/bash
-# Meu Primeiro shell script
+# Seu esforço um dia vai lhe trazer resultados e vão até pensar que foi sorte.
 # Oi seus lindos ta olhando oque aqui em?
 # Fica avontade não tem segredo aqui não! beijos 😘 
+# @FelpRJ21
 clear
 [[ "$(whoami)" != "root" ]] && {
 	clear
@@ -34,9 +35,9 @@ iptables -A INPUT -p tcp --dport 443 -j ACCEPT
 iptables -A INPUT -p tcp --dport 8799 -j ACCEPT
 iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 iptables -A INPUT -p tcp --dport 1194 -j ACCEPT
-clear && echo -ne "\033[1;32mDigite sua nova senha root\033[1;37m: "; read senha
+clear && echo -ne "\033[1;32mDigite sua nova senha root bem difícil\033[1;37m: "; read senha
 [[ -z "$senha" ]] && {
-echo -e "\n\033[1;31mCalma barboleta, vê se não erra de novo\033[0m"
+echo -e "\n\033[1;31mJá ta fazendo merda né burro, nem assim tu faz direito? tenta novamente..\033[0m"
 exit 0
 }
 echo "root:$senha" | chpasswd
